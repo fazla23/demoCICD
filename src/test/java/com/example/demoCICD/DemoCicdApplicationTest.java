@@ -15,5 +15,10 @@ class DemoCicdApplicationTest {
         logger.info("Running from test class");
     }
 
+    @Test
+    void secondTestMethod(){
+        logger.info("Running test method");
+    }
+
 
 }
